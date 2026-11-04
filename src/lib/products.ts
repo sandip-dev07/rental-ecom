@@ -1,0 +1,58 @@
+export const products = [
+  {
+    id: 1,
+    name: "Canon DSLR camera",
+    category: "Cameras",
+    image: "camera.webp",
+    price: 499,
+    description: "Bring every little detail into focus.",
+    label: "Creator favourite",
+  },
+  {
+    id: 2,
+    name: "iPhone",
+    category: "Phones",
+    image: "phone.png",
+    price: 599,
+    description: "Your everyday, with a little extra.",
+    label: "Try something new",
+  },
+  {
+    id: 3,
+    name: "Camping tent",
+    category: "Outdoor gear",
+    image: "camp.webp",
+    price: 199,
+    description: "A home under a sky full of stars.",
+    label: "Weekend essential",
+  },
+  {
+    id: 4,
+    name: "Himalayan 450",
+    category: "Bikes",
+    image: "bike.png",
+    price: 1499,
+    description: "For wherever the long way takes you.",
+    label: "Adventure ready",
+  },
+  {
+    id: 5,
+    name: "GoPro HERO13",
+    category: "Cameras",
+    image: "gopro.webp",
+    price: 449,
+    description: "Small camera. Big adventures.",
+    label: "Pack light",
+  },
+  {
+    id: 6,
+    name: "Trekking backpack",
+    category: "Outdoor gear",
+    image: "backpack.webp",
+    price: 149,
+    description: "Everything you need, on your back.",
+    label: "Trail companion",
+  },
+];
+
+export type Product = (typeof products)[number];
